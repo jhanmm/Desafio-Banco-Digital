@@ -8,7 +8,7 @@ public class Main {
         Scanner scan = new Scanner(System.in).useLocale(Locale.US);
         int selecionador;
         List<Conta> contaList = new ArrayList<>();
-        Cliente cliente = null;
+        Cliente cliente ;
 
         do {
             System.out.println("******************TELA INICIAL******************");
